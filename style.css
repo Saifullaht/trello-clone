@@ -22,15 +22,14 @@ header{
 }
 
 body {
-    background: url(https://i.pinimg.com/originals/2f/43/e7/2f43e72dc84f90b6d98fc53ecd89110c.png) no-repeat;
-    background-size:cover;
+background-color: rgba(222, 184, 135, 0.806);
 }
 
 .column{
     border: 1px solid gray;
 min-width: 250px;
     /* margin-top: 100px; */
-    min-height: 150px;
+    min-height: 200px;
     text-align: center;
     margin-left: 30px;
     border-radius: 10px;
@@ -40,7 +39,9 @@ min-width: 250px;
     box-shadow: 2px 2px 2px 2px gray;
     margin-bottom: 20px; /* Ensure space between boxes */
 }
-
+.column:hover{
+    border: 2px solid black;
+}
 #cardbtn{
 font-size: 25px;
 background-color: rgba(0, 0, 255, 0.679);
@@ -53,7 +54,7 @@ min-width: 200px;
 margin-left: 23px ;
 }
 #cardbtn:hover {
-    background-color: rgba(0, 0, 255, 0.554);
+    background-color: rgba(0, 0, 255, 0.856);
 }
 
 #main {
@@ -81,9 +82,14 @@ p {
     background-color: rgba(250, 235, 215, 0.508);
     margin-top: 9px;
     font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 3px 1px 2px rgba(0, 0, 0, 0.599);
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     gap: 10px;
+}
+input:hover{
+    border: 2px solid black;
 }
 h3{
     margin-top: 10px;
@@ -98,12 +104,15 @@ input {
     font-size: 20px;
     font-weight: 600;
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 25px;
+    margin-top: 10px;
+    
+    bottom: 10px; 
     border-radius: 8px;
     width: 90%;
     text-align: center;
     margin-bottom: 20px;
 }
+
 
 ::placeholder {
     font-weight: 800;
@@ -118,4 +127,7 @@ input::placeholder {
 i {
     font-size: 30px;
     margin: 10px;
+}
+p:hover{
+    border: 2px solid black;
 }
